@@ -9,14 +9,17 @@ export const Products = () => {
     const[page, setPage]= useState(1)
     const[searchParam, setSearchparam]= useSearchParams()
     const[sort, setSort]=useState("")
-    console.log(state)
-
+    const[total,setTotal]=useState(1)
+  
+// console.log(total.length)
     useEffect(()=>{
         getData();
     },[page, sort])
     let limit=5;
     // limit and element
-    // let totalpage= Math.ceil(ele/limit)
+    let ele=(total.length)
+     let totalpage= Math.ceil(ele/limit)
+     console.log(totalpage)
 
     const getData= async()=>{
 
@@ -31,6 +34,7 @@ export const Products = () => {
    let data= await res.json();
    setState(data)
   
+  
     }
     useEffect(()=>{
      let paramObj={page}
@@ -39,7 +43,16 @@ export const Products = () => {
     },[page,sort])
 
 
-    
+    useEffect(()=>{
+        length()
+    },[])
+    const length=async()=>{
+        let url=`http://localhost:8080/products`
+        let res= await fetch(url);
+   let data= await res.json();
+   setTotal(data)
+
+    }
 
 
   return (
@@ -65,7 +78,7 @@ export const Products = () => {
         </div>
         <button disabled={page===1} onClick={()=>{setPage(page-1)}}>prev</button>
         <button>{page}</button>
-        <button onClick={()=>{setPage(page+1)}}>next</button>
+        <button disabled={page===totalpage} onClick={()=>{setPage(page+1)}}>next</button>
     </div>
   )
 }
