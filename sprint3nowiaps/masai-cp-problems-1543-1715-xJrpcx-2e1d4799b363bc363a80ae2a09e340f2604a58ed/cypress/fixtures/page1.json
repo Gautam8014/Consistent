@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "title": "Software Engineer",
+        "company": "ABC Tech",
+        "location": "New York, NY",
+        "description": "We are looking for a talented software engineer to join our team...",
+        "requirements": "Bachelor's degree in Computer Science or related field...",
+        "responsibilities": "Design and implement scalable software solutions...",
+        "createdAt": "2023-04-10T10:30:00.000Z",
+        "updatedAt": "2023-04-10T10:30:00.000Z"
+    },
+    {
+        "id": 2,
+        "title": "Data Scientist",
+        "company": "XYZ Corp",
+        "location": "San Francisco, CA",
+        "description": "We are seeking a highly skilled data scientist with expertise in...",
+        "requirements": "Master's degree in Data Science or related field...",
+        "responsibilities": "Analyze large datasets to extract insights...",
+        "createdAt": "2023-04-09T15:45:00.000Z",
+        "updatedAt": "2023-04-09T15:45:00.000Z"
+    },
+    {
+        "id": 3,
+        "title": "UX Designer",
+        "company": "DEF Design",
+        "location": "London, UK",
+        "description": "We are looking for a creative UX designer to join our team...",
+        "requirements": "Bachelor's degree in Design or related field...",
+        "responsibilities": "Design intuitive and user-friendly interfaces...",
+        "createdAt": "2023-04-08T09:15:00.000Z",
+        "updatedAt": "2023-04-08T09:15:00.000Z"
+    },
+    {
+        "id": 4,
+        "title": "Front-end Developer",
+        "company": "GHI Web Solutions",
+        "location": "Berlin, Germany",
+        "description": "We are hiring a skilled front-end developer to create responsive web applications...",
+        "requirements": "Strong proficiency in HTML, CSS, and JavaScript...",
+        "responsibilities": "Develop user-friendly interfaces and interactive web components...",
+        "createdAt": "2023-04-07T14:30:00.000Z",
+        "updatedAt": "2023-04-07T14:30:00.000Z"
+    }
+]

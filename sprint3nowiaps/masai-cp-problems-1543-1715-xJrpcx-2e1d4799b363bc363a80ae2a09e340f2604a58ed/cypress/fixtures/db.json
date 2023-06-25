@@ -1,0 +1,114 @@
+{
+	"jobs": [
+		{
+			"id": 1,
+			"title": "Software Engineer",
+			"company": "ABC Tech",
+			"location": "New York, NY",
+			"description": "We are looking for a talented software engineer to join our team...",
+			"requirements": "Bachelor's degree in Computer Science or related field...",
+			"responsibilities": "Design and implement scalable software solutions...",
+			"createdAt": "2023-04-10T10:30:00.000Z",
+			"updatedAt": "2023-04-10T10:30:00.000Z"
+		},
+		{
+			"id": 2,
+			"title": "Data Scientist",
+			"company": "XYZ Corp",
+			"location": "San Francisco, CA",
+			"description": "We are seeking a highly skilled data scientist with expertise in...",
+			"requirements": "Master's degree in Data Science or related field...",
+			"responsibilities": "Analyze large datasets to extract insights...",
+			"createdAt": "2023-04-09T15:45:00.000Z",
+			"updatedAt": "2023-04-09T15:45:00.000Z"
+		},
+		{
+			"id": 3,
+			"title": "UX Designer",
+			"company": "DEF Design",
+			"location": "London, UK",
+			"description": "We are looking for a creative UX designer to join our team...",
+			"requirements": "Bachelor's degree in Design or related field...",
+			"responsibilities": "Design intuitive and user-friendly interfaces...",
+			"createdAt": "2023-04-08T09:15:00.000Z",
+			"updatedAt": "2023-04-08T09:15:00.000Z"
+		},
+		{
+			"id": 4,
+			"title": "Front-end Developer",
+			"company": "GHI Web Solutions",
+			"location": "Berlin, Germany",
+			"description": "We are hiring a skilled front-end developer to create responsive web applications...",
+			"requirements": "Strong proficiency in HTML, CSS, and JavaScript...",
+			"responsibilities": "Develop user-friendly interfaces and interactive web components...",
+			"createdAt": "2023-04-07T14:30:00.000Z",
+			"updatedAt": "2023-04-07T14:30:00.000Z"
+		},
+		{
+			"id": 5,
+			"title": "Data Engineer",
+			"company": "JKL Data Solutions",
+			"location": "Chicago, IL",
+			"description": "We are looking for a skilled data engineer to design and implement data pipelines...",
+			"requirements": "Bachelor's degree in Computer Science or related field...",
+			"responsibilities": "Design and implement scalable data pipelines...",
+			"createdAt": "2023-04-06T12:45:00.000Z",
+			"updatedAt": "2023-04-06T12:45:00.000Z"
+		},
+		{
+			"id": 6,
+			"title": "Product Manager",
+			"company": "MNO Tech",
+			"location": "Los Angeles, CA",
+			"description": "We are seeking an experienced product manager to lead our product development...",
+			"requirements": "5+ years of product management experience...",
+			"responsibilities": "Define product strategy, gather requirements, and oversee product development...",
+			"createdAt": "2023-04-05T16:30:00.000Z",
+			"updatedAt": "2023-04-05T16:30:00.000Z"
+		},
+		{
+			"id": 7,
+			"title": "Full-stack Developer",
+			"company": "PQR Tech Solutions",
+			"location": "Toronto, Canada",
+			"description": "We are looking for a full-stack developer to build end-to-end web applications...",
+			"requirements": "Strong proficiency in both front-end and back-end technologies...",
+			"responsibilities": "Develop and maintain web applications from concept to deployment...",
+			"createdAt": "2023-04-04T11:15:00.000Z",
+			"updatedAt": "2023-04-04T11:15:00.000Z"
+		},
+		{
+			"id": 8,
+			"title": "Marketing Manager",
+			"company": "ABC Marketing Agency",
+			"location": "Sydney, Australia",
+			"description": "We are seeking an experienced marketing manager to develop and implement marketing strategies...",
+			"requirements": "Bachelor's degree in Marketing or related field...",
+			"responsibilities": "Create and execute marketing campaigns, analyze performance, and optimize strategies...",
+			"createdAt": "2023-04-03T14:30:00.000Z",
+			"updatedAt": "2023-04-03T14:30:00.000Z"
+		},
+		{
+			"id": 9,
+			"title": "Graphic Designer",
+			"company": "LMN Creative Agency",
+			"location": "Paris, France",
+			"description": "We are looking for a talented graphic designer to create visually appealing designs...",
+			"requirements": "Strong proficiency in Adobe Creative Suite...",
+			"responsibilities": "Create visual elements, such as logos, banners, and illustrations...",
+			"createdAt": "2023-04-02T09:45:00.000Z",
+			"updatedAt": "2023-04-02T09:45:00.000Z"
+		},
+		{
+			"id": 10,
+			"title": "Business Analyst",
+			"company": "XYZ Consulting",
+			"location": "Singapore",
+			"description": "We are hiring a skilled business analyst to gather and analyze business requirements...",
+			"requirements": "Bachelor's degree in Business or related field...",
+			"responsibilities": "Conduct market research, analyze data, and provide strategic recommendations...",
+			"createdAt": "2023-04-01T12:00:00.000Z",
+			"updatedAt": "2023-04-01T12:00:00.000Z"
+		}
+	]
+}
